@@ -1,0 +1,391 @@
+body {
+    background-image: url(./Images/pastel.jpg);
+    cursor: url(./Images/arrow-cursor.png), auto;
+    background-repeat: no-repeat;
+    background-size: 4000px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.description {
+    border-radius: 35px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 40px;
+}
+
+.header-description {
+    font-size: 30px;
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border-color: rgb(75, 17, 17);
+    width: 90rem;
+}
+
+.description:hover {
+    border: 2px solid rgb(3, 3, 105);
+    background-color: rgb(77, 132, 167);
+}
+
+ul {
+    padding: 0px;
+}
+
+.project {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.contact {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+
+.project:hover {
+    background-color: lightpink;
+}
+
+.contact:hover {
+    background-color: lightpink;
+}
+
+h1 {
+    font-weight: bolder 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education {
+    border-radius: 2rem;
+    background-color: palegoldenrod;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 5rem;
+}
+
+.header-education {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary {
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    list-style-type: none;
+    padding-right: 45rem;
+}
+
+.school {
+    padding-right: 25rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    list-style-type: none;
+    font-size: 18px;
+    color: grey;
+}
+
+.li2 {
+    padding-right: 180px;
+    list-style-type: none;
+}
+
+.skills {
+    border-radius: 2rem;
+    background-color: pink;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.header-skills {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education:hover {
+    border: 2px solid rgb(134, 114, 64);
+    background-color: gold;
+}
+
+.skills:hover {
+    border: 2px solid rgb(138, 57, 71);
+    background-color: rgb(206, 104, 121);
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    height: 12%;
+    margin: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+
+td {
+    height: 50px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+tr {
+    background-color: pink;
+    color: black;
+}
+
+th {
+    background-color: rgb(206, 104, 121);
+    color: black;
+}
+
+.myprojects {
+    border-radius: 2rem;
+    background-color: lightgreen;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.myprojects:hover {
+    border: 2px solid rgb(5, 56, 5);
+    background-color: rgb(2, 104, 2);
+}
+
+#header2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article1 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#body2 {
+    background-image: url(./Images/pastel.jpg);
+    cursor: url(./Images/arrow-cursor.png), auto;
+    background-repeat: no-repeat;
+    background-size: 4500px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.home {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.contactme {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+
+.section2 {
+    border-radius: 2rem;
+    background-color: palegoldenrod;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section2:hover {
+    border: 2px solid rgb(134, 114, 64);
+    background-color: gold;
+}
+
+.section3 {
+    border-radius: 2rem;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section3:hover {
+    border: 2px solid blue;
+    background-color: rgb(77, 132, 167);
+}
+
+.section4 {
+    border-radius: 2rem;
+    background-color: lightpink;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section4:hover {
+    border: 2px solid rgb(138, 57, 71);
+    background-color: rgb(206, 104, 121);
+}
+
+.header-business {
+    font-size: 40px;
+}
+
+.header-celebrity {
+    font-size: 40px;
+}
+
+.header-quiz {
+    font-size: 40px;
+}
+
+.home:hover {
+    background-color: lightpink;
+}
+
+.contactme:hover {
+    background-color: lightpink;
+}
+
+#body {
+    background-image: url(./Images/pastel.jpg);
+    cursor: url(./Images/arrow-cursor.png), auto;
+    background-repeat: no-repeat;
+    background-size: 4500px;
+}
+
+.project1 {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.home1 {
+    background-color: rgb(199, 140, 150);
+    margin-top: 3px;
+    color: black;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 1rem;
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: 5rem;
+}
+
+.home1:hover {
+    background-color: lightpink;
+}
+
+.project1:hover {
+    background-color: lightpink;
+}
+
+.message {
+    border-radius: 2rem;
+    background-color: rgb(243, 187, 82);
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem;
+}
+
+.message:hover {
+    border: 2px solid rgb(161, 108, 10);
+    background-color: rgb(236, 158, 12);
+}
+
+.header-message {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-connect {
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    padding: 1rem;
+    font-size: 25px;
+}
