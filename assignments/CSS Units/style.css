@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.section1 {
+    color: white;
+    background-color:rgb(133, 130, 130);
+    height: 25vh;
+    font-size: 2em;
+}
+.section2 {
+    color: black;
+    background-color: rgb(214, 214, 158);
+    height: 25vh;
+    font-size: 2em;
+}
+hr {
+    width: 33%;
+    color: red;
+}
