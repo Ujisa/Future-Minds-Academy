@@ -1,0 +1,21 @@
+body {
+    background:url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+h1 {
+    background-color: rgb(109, 60, 60);
+    color: antiquewhite;
+}
+a {
+    color: rgb(105, 74, 80);
+}
+ul {
+    background-color: rgba(250, 235, 215, 0.63);
+    margin-bottom: 2rem;
+}
+p {
+    background-color: rgb(151, 123, 127);
+    color: rgb(100, 60, 60);
+    margin-bottom: 5rem;
+}
