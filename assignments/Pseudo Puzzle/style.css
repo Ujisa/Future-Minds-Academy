@@ -1,0 +1,23 @@
+p {
+    background-color: #ee82ee;
+    color: black;
+    padding: 2rem;
+    padding-bottom: 2rem;
+}
+
+p:hover {
+    border: 2px solid rgb(58, 26, 58);
+    background-color: rgb(172, 97, 172);
+}
+
+.first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+}
+h1 {
+    background-color: cadetblue;
+    color: white;
+    
+}
