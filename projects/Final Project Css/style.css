@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    background: url();
+    background-color: rgba(0, 0, 0, 0.496);
+    background-position: center;
+    background-blend-mode: color;
+    padding: 50px;
+    color: white;
+    overflow-y: scroll;
+}
+
+.asideLinks {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.asideLinks:hover:not(.active, .logo) {
+    background-color: rgba(211, 211, 211, );
+}
+
+.container {
+    background-color: rgb(205, 204, 204);
+    padding: 20px 60px;
+    height: 500vh;
+    overflow-x: scroll;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(205, 204, 204);
+}
+
+header div {
+    display: flex;
+    gap: 2rem;
+}
+
+.notifications {
+    position: relative;
+}
+
+.notificationsInfo {
+    background-color: red;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+
+.notificationsMsg {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.notificationMsg p{
+    padding: 10px;
+}
+
+.notificationsMsg p:hover {
+    background-color: red;
+}
+
+.circle {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card {
+    margin: 50px 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.form input:focus {
+    border-bottom: 2px solid red;
+}

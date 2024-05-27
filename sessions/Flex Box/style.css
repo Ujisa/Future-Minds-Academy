@@ -1,0 +1,55 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: brown;
+}
+
+.flex-slices {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: purple;
+}
+
+.logo {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.dashboard {
+    flex: 8;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.my-account {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    background-color: green;
+}
+
+.flex-vertical > div {
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-vertical .car1 {
+    height: 50px;
+    
+}

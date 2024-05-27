@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: grey;
+    
+}
+
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+nav ,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    display: grid;
+    background-color: grey;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+aside {
+    background-color: purple;
+    padding: auto;
+    width: auto;
+    height: 100vh;
+}
+
+.article1 {
+    background-color: green;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.article2 {
+    background-color: yellow;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.article3 {
+    background-color: pink;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    background-color: blue;
+}
+
+

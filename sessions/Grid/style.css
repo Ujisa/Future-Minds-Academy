@@ -1,0 +1,27 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+header {
+    background-color: red;
+    padding: 60px;
+}
+aside {
+    background-color: green;
+    grid-auto-rows: span;
+    height: 1000px;
+}
+main {
+    background-color: pink;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
