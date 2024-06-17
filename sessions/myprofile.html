@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+
+<body>
+
+    <h1 id="title">My Ninja</h1>
+    <div id="photo">
+        <img src="/sessions/Images2/ninja2.png.png" alt="">
+    </div>
+    <p class="bio">lorem ipsum</p>
+
+    <button onclick="loadNinja()">Ninja</button>
+    <button onclick="loadGrandma()">Grandma</button>
+
+    <script>
+        function loadGrandma() {
+
+
+            const title = document.querySelector('#title');
+            title.textContent = 'Ujisa Haziri';
+
+            const photo = document.querySelector('#photo');
+            photo.innerHTML = '<img src="/sessions/Images2/grandma.png" alt="">';
+
+            const bio = document.querySelector('.bio');
+            bio.textContent = 'I like movies.';
+
+        }
+
+        function loadNinja() {
+
+
+            const title = document.querySelector('#title');
+            title.textContent = 'Ninja';
+
+            const photo = document.querySelector('#photo');
+            photo.innerHTML = '<img src="/sessions/Images2/ninja2.png.png" alt="">';
+
+            const bio = document.querySelector('.bio');
+            bio.textContent = 'lorem ipsum';
+
+        }
+    </script>
+
+
+</body>
+
+</html>
