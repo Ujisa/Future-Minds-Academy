@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List clicking</title>
+    <style>
+        ul{
+            display: flex;
+            gap: 10px;
+        }
+
+        ul li{
+            list-style-type: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: fit-content;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="gugu">Gu gu pici gu</li>
+        <li id="beni">Beni ecen vet</li>
+        <li id="malsorja">Malsorja</li>
+        <li id="hamleti">Hamleti</li>
+        <li id="trimi">trimi mire me shok shum</li>
+        <li id="aventurat">Aventurat e Tom Sojerit</li>
+    </ul>
+
+    <h1 id="mytext">Fetch Title</h1>
+
+    <script>
+        const gugu = document.querySelector('#gugu')
+        const beni = document.querySelector('#beni')
+        const malsorja = document.querySelector('#malsorja')
+        const hamleti = document.querySelector('#hamleti')
+        const trimi = document.querySelector('#trimi')
+        const aventurat = document.querySelector('#aventurat')
+
+
+        gugu.addEventListener('click', function(){
+            mytext.textContent = 'Gu gu pici gu';
+
+        });
+        beni.addEventListener('click', function(){
+            mytext.textContent = 'Beni ecen vet';
+
+        });
+        malsorja.addEventListener('click', function(){
+            mytext.textContent = 'Malsorja';
+
+        });
+        hamleti.addEventListener('click', function(){
+            mytext.textContent = 'Hamleti';
+
+        });
+        trimi.addEventListener('click', function(){
+            mytext.textContent = 'trimi';
+
+        });
+        aventurat.addEventListener('click', function(){
+            mytext.textContent = 'aventurat';
+
+        });
+    </script>
+</body>
+</html>

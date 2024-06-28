@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest of three numbers</title>
+</head>
+<body>
+    
+    <script>
+        function findLargestNumber(a, b, c){
+            if(a >= b && a >= c) {
+                return a;
+            }
+            else if (b >= a && b >= c) {
+                return b;
+            }
+            else {
+                return c;
+            }
+        }
+
+        function testFindLargestNumber(){
+            var a = prompt("Enter the first number: ");
+            var b = prompt("Enter the second number: ");
+            var c = prompt("Enter the third number: ");
+
+            a = Number(a);
+            b = Number(b);
+            c = Number(c);
+
+            if(isNaN(a) || isNaN(b) || isNaN(c)){
+                console.log("Invalid input. Please enter valid numbers.");
+            }
+            else{
+                var largest = findLargestNumber(a, b, c);
+                console.log("The largest number is: " + largest);
+            }
+        }
+        testFindLargestNumber();
+    </script>
+</body>
+</html>
